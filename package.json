@@ -1,11 +1,11 @@
 {
-  "name": "bodhi-pipes",
+  "name": "bodhi-pipes-common",
   "version": "1.0.1",
   "description": "pipes-n-filter implementation for processing javascript data structures",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bodhi-space/bodhi-pipes"
+    "url": "https://github.com/bodhi-space/bodhi-pipes-common"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
