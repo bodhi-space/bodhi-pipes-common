@@ -16,6 +16,7 @@
     "JSON2": "^0.1.0",
     "async": "^0.9.0",
     "deep-extend": "^0.3.3",
+    "json-mapper": "0.0.9",
     "jsonselect": "0.0.1",
     "lodash": "^3.7.0",
     "shortid": "^2.2.2",
