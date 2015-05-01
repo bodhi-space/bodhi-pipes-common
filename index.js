@@ -1,13 +1,9 @@
 module.exports = function FilterModule(options){
-
     return {
-        modifiers  : require('./lib/modifiers')(),
-        filters    : require('./lib/filters')(),
-        mappers    : require('./lib/mappers')(),
-        selectors  : require('./lib/selectors')(),
-        converters : require('./lib/mappers')()
+        modifiers  : require('./lib/modifiers')(options),
+        filters    : require('./lib/filters')(options),
+        mappers    : require('./lib/mappers')(options),
+        selectors  : require('./lib/selectors')(options),
+        converters : require('./lib/mappers')(options)
     }
-
 };
-
-console.log(module.exports());
